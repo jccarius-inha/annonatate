@@ -1,0 +1,40 @@
+---
+canvas: "https://digital.inha.fr/iiifserver/iiif/3/3694/canvas/3796"
+order: 6
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "10",
+            "purpose": "commenting",
+            "creator": {
+                "id": "PENSE",
+                "name": "PENSE"
+            },
+            "created": "2025-01-30T13:04:30.371Z",
+            "modified": "2025-01-30T13:04:30.543Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://jccarius-inha.github.io/annonatate/manifests/3/3694/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://digital.inha.fr/iiifserver/iiif/3/3694/canvas/3796",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"475.45941162109375,2307.14404296875 819.2391967773438,2719.679931640625 1487.2616813786972,2162.9947254755443 1143.4818962224472,1750.458836803669\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "58d3fde0-83d2-488d-994a-ed0781d84053.json",
+    "motivation": "commenting"
+}
