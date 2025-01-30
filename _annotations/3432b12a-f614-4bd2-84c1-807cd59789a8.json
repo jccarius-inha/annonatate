@@ -1,0 +1,49 @@
+---
+canvas: "https://digital.inha.fr/iiifserver/iiif/3/3694/canvas/3796"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "image",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jccarius",
+                "name": "jccarius"
+            },
+            "created": "2025-01-30T10:51:19.942Z",
+            "modified": "2025-01-30T10:51:20.913Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "selection",
+            "purpose": "tagging",
+            "creator": {
+                "id": "jccarius",
+                "name": "jccarius"
+            },
+            "created": "2025-01-30T10:51:36.992Z",
+            "modified": "2025-01-30T10:51:40.276Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://jccarius-inha.github.io/annonatate/manifests/3/3694/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://digital.inha.fr/iiifserver/iiif/3/3694/canvas/3796",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=74.50312042236328,67.73859405517578,3838.5203170776367,2886.416679382324"
+        }
+    },
+    "id": "3432b12a-f614-4bd2-84c1-807cd59789a8.json",
+    "motivation": "commenting"
+}
