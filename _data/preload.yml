@@ -1,3 +1,5 @@
 images: []
-settings: {}
-version: '2.1'
+settings:
+  tempuser: enabled
+version:
+- '2.1'
