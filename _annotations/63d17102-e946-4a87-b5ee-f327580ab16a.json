@@ -1,0 +1,38 @@
+---
+canvas: "https://digital.inha.fr/iiifserver/iiif/3/3694/canvas/3796"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test\n",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jccarius-inha",
+                "name": "jccarius-inha"
+            },
+            "created": "2025-01-30T10:37:23.515Z",
+            "modified": "2025-01-30T10:37:24.628Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://jccarius-inha.github.io/annonatate/manifests/3/3694/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://digital.inha.fr/iiifserver/iiif/3/3694/canvas/3796",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1624.9642333984375,1305.8494873046875,827.9161376953125,775.2305908203125"
+        }
+    },
+    "id": "63d17102-e946-4a87-b5ee-f327580ab16a.json",
+    "motivation": "commenting"
+}
