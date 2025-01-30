@@ -1,0 +1,36 @@
+---
+canvas: "https://digital.inha.fr/iiifserver/iiif/3/3694/canvas/3796"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "7",
+            "purpose": "commenting",
+            "creator": {
+                "id": "nanotheatre",
+                "name": "nanotheatre"
+            },
+            "created": "2025-01-30T10:55:00.463Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://jccarius-inha.github.io/annonatate/manifests/3/3694/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://digital.inha.fr/iiifserver/iiif/3/3694/canvas/3796",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"859.3468017578125\" cy=\"1031.3392639160156\" r=\"569.8286249612014\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "146b55dc-e041-45bd-b244-f7bc298587cb.json",
+    "motivation": "commenting"
+}
